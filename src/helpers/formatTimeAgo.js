@@ -13,8 +13,8 @@ export const formatTimeAgo = (dateString) => {
         return `${Math.floor(secondPast)/ 3600}h ago`
     }
     if (secondPast > 86400) {
-        const day = Math.floor(secondPast);
+        const day = Math.floor(secondPast/86400);
         return day === 1 ? `${day} day ago` : `${day} days ago`
 
-}
+    }
 }
