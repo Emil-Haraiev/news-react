@@ -7,7 +7,7 @@ export default {
                 custom: ["Inter", "sans-serif"], // 🔹 Убеждаемся, что "custom" — это правильное имя
             },
             colors: {
-                primary: "#6С7072",
+                customPrimary: "#CD5C5C", //"#6С7072",
                 customBackground:"#b5b5b8",
             },
         },
